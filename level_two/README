@@ -1,0 +1,12 @@
+- create a superuser with createsuperuser
+About models:
+    - create models.py file inside <app_name>
+    - run migrate makemigrate migrate commands in sequence (makemigrate migrate each time you modify models)
+    - add the models to <app_name>/admin.py with the admin.site.register function (then you can access with superuser
+    credentials)
+Create dummy data:
+    - pip install Faker
+    - add a script with the rows for configuring project settings first
+    - run the script and check if it worked from /admin
+- visit the webpage to look for mistakes
+
